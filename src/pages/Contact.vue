@@ -47,6 +47,10 @@ async function copy() {
                 </div>
             </div>
         </div>
+        <div class="absolute bottom-0 bg-neutral-800 w-full p-2 text-white flex justify-between rounded-t-lg">
+            <span>© Daniel Norhøj - 2022</span>
+            <span>Check out the code on <a class="bg-transparent underline" href="https://github.com/dnorhoj/portfolio">GitHub</a>!</span>
+        </div>
     </div>
 </template>
 
