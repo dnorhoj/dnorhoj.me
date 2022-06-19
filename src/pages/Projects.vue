@@ -36,7 +36,7 @@ import Project from '../components/Project.vue';
 
 <style scoped>
 .projects {
-    @apply relative flex justify-center items-center flex-col
+    @apply relative flex justify-center items-center flex-col snap-center h-screen
 }
 
 .title {

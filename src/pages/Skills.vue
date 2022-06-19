@@ -22,7 +22,7 @@ import Skill from '../components/Skill.vue';
 <style scoped>
 .skills {
   @apply relative flex justify-center items-center
-  flex-col lg:flex-row
+  flex-col lg:flex-row snap-center h-screen
 }
 
 .title {

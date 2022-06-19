@@ -4,7 +4,7 @@ import Icon from '../components/Icon.vue';
 
 <template>
 
-  <div class="relative flex justify-center h-screen">
+  <div class="relative flex justify-center snap-center h-screen" id="front">
     <div class="flex flex-col justify-center w-full">
       <h1 class="text-4xl lg:text-5xl titletext">Daniel Norhøj</h1>
       <h2 class="text-xl lg:text-2xl my-3 titletext">
@@ -19,12 +19,13 @@ import Icon from '../components/Icon.vue';
         <Icon href="https://youtu.be/dQw4w9WgXcQ" icon="bi bi-youtube" target="_blank" />
       </div>
     </div>
-    <div class="absolute top-3 left-3 drop-shadow-xl">
+    <!--<div class="absolute top-3 left-3 drop-shadow-xl">
       <div class="bg-white p-2 rounded-xl">
         <span class="block font-bold text-xl">BETA!</span>
         This page is still under development
       </div>
     </div>
+    -->
     <div class="absolute bottom-3 animate-bounce">
       <a class="text-white text-xl font-bold" href="#projects">
         Scroll for more!
