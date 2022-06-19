@@ -3,7 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-a {
-    @apply bg-green-50;
-}

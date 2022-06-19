@@ -7,17 +7,17 @@ defineProps({
 </script>
 
 <template>
-    <a :href="href" :target="target">
+    <a class="icon" :href="href" :target="target">
         <i :class="`bi bi-${icon}`"></i>
     </a>
 </template>
 
 <style scoped>
-a {
+.icon {
   @apply p-3 mx-1 bg-white rounded-xl drop-shadow-lg hover:-translate-y-1 transition-all hover:drop-shadow-xl cursor-pointer
 }
 
-i {
+.icon i {
   @apply text-neutral-700 text-4xl
 }
 

@@ -38,7 +38,7 @@ async function copy() {
                                 <button @click="copy" class="p-2 rounded-lg transition-all hover:bg-neutral-300">
                                     <i class="bi bi-clipboard"></i>
                                 </button>
-                                <div class="bg-green-500 text-white text-center rounded-xl p-2 absolute top-10" :class="[ copied ? '' : 'hidden']" id="copied">
+                                <div class="bg-green-500 text-white text-center rounded-tl-none rounded-xl p-2 absolute top-10" :class="[ copied ? '' : 'hidden']" id="copied">
                                     Copied!
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ async function copy() {
         </div>
         <div class="absolute bottom-0 bg-neutral-800 w-full p-2 text-white flex justify-between rounded-t-lg">
             <span>© Daniel Norhøj - 2022</span>
-            <span>Check out the code on <a class="bg-transparent underline" href="https://github.com/dnorhoj/portfolio" target="_blank">GitHub</a>!</span>
+            <span>Check out the code on <a class="underline" href="https://github.com/dnorhoj/portfolio" target="_blank">GitHub</a>!</span>
         </div>
     </div>
 </template>

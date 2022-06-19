@@ -26,7 +26,7 @@ import Icon from '../components/Icon.vue';
       </div>
     </div>
     <div class="absolute bottom-3 animate-bounce">
-      <a class="bg-transparent text-white text-xl font-bold" href="#projects">
+      <a class="text-white text-xl font-bold" href="#projects">
         Scroll for more!
       </a>
     </div>
