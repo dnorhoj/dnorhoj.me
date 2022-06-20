@@ -25,7 +25,7 @@ import Contact from './pages/Contact.vue';
 
 <style scoped>
 .main {
-  @apply snap-x overflow-y-scroll h-screen scroll-smooth bg-gradient-to-br from-red-500 to-indigo-600;
+  @apply snap-x snap-mandatory overflow-y-scroll h-screen scroll-smooth bg-gradient-to-br from-red-500 to-indigo-600;
 }
 
 </style>
