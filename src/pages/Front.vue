@@ -12,11 +12,11 @@ import Icon from '../components/Icon.vue';
       </h2>
       <hr class="border-2 mt-3 drop-shadow-lg 2xl:w-1/3 xl:w-1/2 lg:w-1/2 w-11/12 rounded-full self-center">
       <div class="flex justify-center mt-3">
-        <Icon href="https://github.com/dnorhoj" icon="bi bi-github" target="_blank" />
-        <Icon href="javascript:alert('Add me on discord: dnorhoj#1337')" icon="bi bi-discord" />
-        <Icon href="https://www.linkedin.com/in/daniel-norhoj/" icon="bi bi-linkedin" target="_blank" />
-        <Icon href="https://twitter.com/dnorhoj" icon="bi bi-twitter" target="_blank" />
-        <Icon href="https://youtu.be/dQw4w9WgXcQ" icon="bi bi-youtube" target="_blank" />
+        <Icon href="https://github.com/dnorhoj" icon="github" target="_blank" />
+        <Icon href="javascript:alert('Add me on discord: dnorhoj#1337')" icon="discord" />
+        <Icon href="https://www.linkedin.com/in/daniel-norhoj/" icon="linkedin" target="_blank" />
+        <Icon href="https://twitter.com/dnorhoj" icon="twitter" target="_blank" />
+        <Icon href="https://youtu.be/dQw4w9WgXcQ" icon="youtube" target="_blank" />
       </div>
     </div>
     <!--<div class="absolute top-3 left-3 drop-shadow-xl">

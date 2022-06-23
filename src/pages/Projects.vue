@@ -8,25 +8,25 @@ import Project from '../components/Project.vue';
         <div class="project-container">
             <Project title="AntiRickRoll" icon="globe" description="Browser extension that blocks Rickrolls!"
                 lang="JS, HTML">
-                <a href="https://antirickroll.com/" target="_blank">
+                <a href="https://antirickroll.com/" aria-label="AntiRickRoll website" target="_blank">
                     <i class="bi bi-globe2"></i>
                 </a>
-                <a href="https://github.com/dnorhoj/AntiRickRoll" target="_blank">
+                <a href="https://github.com/dnorhoj/AntiRickRoll" aria-label="AntiRickRoll GitHub Repository" target="_blank">
                     <i class="bi bi-github"></i>
                 </a>
             </Project>
             <Project title="Lectio.py" icon="filetype-py"
                 description="Python library which interfaces the Lectio website through HTTP requests." lang="Python">
-                <a href="https://pypi.org/project/lectio.py/" target="_blank">
+                <a href="https://pypi.org/project/lectio.py/" aria-label="Lectio.py website" target="_blank">
                     <i class="bi bi-globe2"></i>
                 </a>
-                <a href="https://github.com/dnorhoj/lectio.py" target="_blank">
+                <a href="https://github.com/dnorhoj/lectio.py" aria-label="Lectio.py GitHub Repository" target="_blank">
                     <i class="bi bi-github"></i>
                 </a>
             </Project>
             <Project title="Unnamed Discord Bot" icon="filetype-py" description="Unnamed general purpose discord bot."
                 lang="Python">
-                <a href="https://github.com/dnorhoj/unnameddiscordbot" target="_blank">
+                <a href="https://github.com/dnorhoj/unnameddiscordbot" aria-label="Unnamed Discord Bot GitHub Repository" target="_blank">
                     <i class="bi bi-github"></i>
                 </a>
             </Project>

@@ -24,7 +24,6 @@ let shown = ref(false)
             <a class="nav-item" href="#projects">Projects</a>
             <a class="nav-item" href="#skills">Skills</a>
             <a class="nav-item" href="#contact">Contact</a>
-            <a class="nav-item cursor-pointer" onclick="alert('nothing to see here')">Coming soon™</a>
         </div>
     </div>
 </template>

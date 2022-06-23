@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-    <a class="icon" :href="href" :target="target">
+    <a class="icon" :aria-label="icon" :href="href" :target="target">
         <i :class="`bi bi-${icon}`"></i>
     </a>
 </template>
